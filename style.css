@@ -1,0 +1,58 @@
+.lesson-questions{}
+.lesson-questions .oneQu{
+border: 1px solid #eee;
+border-radius: 2px;
+padding: 16px;
+}
+.lesson-questions .oneQu .numQu{
+    display: inline!important;
+}
+.lesson-questions .oneQu h2{
+    display: inline!important;
+}
+.lesson-questions .oneQu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    margin: 20px 0px 0px;
+}
+.lesson-questions .oneQu ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lesson-questions .oneQu ul li .squar{
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #888;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.lesson-questions .oneQu ul li .squar.true{
+    color: #fff;
+    background: #78b517;
+    border-color: #78b517;
+}
+.lesson-questions .oneQu ul li .ans{}
+.lesson-questions .oneQu ul li .ans p{
+    margin: 0;
+
+}
+.lesson-questions .oneQu ul li  .squar p{
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+.lesson-questions .oneQu ul li .squar  p.true{
+
+}
